@@ -15,4 +15,4 @@ jobs:
 
     - name: docker
       run: |
-        docker run hello-world
+        docker compose up --exit-code-from cypress
